@@ -33,7 +33,7 @@ monikerRange: ">= aps-pdw-2016 || = azuresqldb-current || >= sql-server-2016 || 
   
 -   To test for null values in a query, use IS NULL or IS NOT NULL in the WHERE clause.  
   
--   Null values can be inserted into a column by explicitly stating NULL in an INSERT or UPDATE statement or by leaving a column out of an INSERT statement.  
+-   Null values can be inserted into a column by explicitly stating NULL in an INSERT or UPDATE statement or by leaving a column out of an INSERT statement if the default value of the column is defined as NULL or is not defined.  
   
 -   Null values cannot be used as information that is required to distinguish one row in a table from another row in a table, such as primary keys, or for information used to distribute rows, such as distribution keys.  
   
